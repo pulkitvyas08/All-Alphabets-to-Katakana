@@ -15,6 +15,6 @@ for word in words:
     if contains_another == False:
         alphabet_words.append(word)
 
-with open('word_list.txt', 'x') as f:
+with open('only_katakana_word_list.txt', 'x') as f:
     for word in alphabet_words:
         f.write("%s\n" % word)

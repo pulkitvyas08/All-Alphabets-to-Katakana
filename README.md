@@ -2,9 +2,12 @@
 
 ## File Description:
 
-- extract-and-convert.py: python file for processing
+- extract-and-convert-all-katakana.py: python file for making list of words where even on letter is of katakana
+- extract-and-convert-only-katakana.py: python file for making list of words that are strictly in katakana
 - raw_words.json: Example json file
-- word_list.txt: Example processed file
+- all_katakana_word_list: Example output file of "extract-and-convert-all-katakana.py"
+- only_katakana_word_list: Example output file of "extract-and-convert-only-katakana.py"
+
 
 ## Execution:
 ```sh
