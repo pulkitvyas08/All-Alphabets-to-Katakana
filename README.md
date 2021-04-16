@@ -7,6 +7,6 @@
 - word_list.txt: Example processed file
 
 ## Execution:
-``sh
+```sh
   python extract-and-convert.py
-``
+```
