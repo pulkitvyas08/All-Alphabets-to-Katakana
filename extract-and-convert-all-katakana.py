@@ -12,6 +12,7 @@ for word in words:
         if letter in alphabet:
             alphabet_words.append(word)
 
+alphabet_words = list(set(alphabet_words))
 with open('all_katakana_word_list.txt', 'x') as f:
     for word in alphabet_words:
         f.write("%s\n" % word)
